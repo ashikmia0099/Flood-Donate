@@ -5,7 +5,6 @@ function getInputById(id){
     const InputVlaue = document.getElementById(id).value;
     const InputNumber = parseFloat(InputVlaue);
 
-    console.log(id, InputNumber);
    
     return InputNumber;
 
@@ -20,7 +19,6 @@ function getTextDataById(ID){
     const TextValue = document.getElementById(ID).innerText;
     const TextNumber = parseFloat(TextValue);
 
-    console.log(ID, TextNumber);
    
     return TextNumber;
 
